@@ -1,0 +1,91 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.container-2 button {
+  margin-bottom: 10px;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-pick-color,
+.blackjack-row-1,
+.blackjack-row-2,
+.blackjack-row-3 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.flex-box-container-2 img {
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+  box-shadow: 0px 10px 50px rgb(233, 37, 37);
+}
+
+.blackjack-row-1,
+.blackjack-row-2 {
+  background-image: url(/assets/images/tableBackground.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.blackjack-row-1 div {
+  border: solid 1px white;
+  padding: 1px;
+  text-align: center;
+  height: 350px;
+  flex: 1;
+}
+
+.blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.blackjack-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  max-width: 260px;
+  border: solid 1px black;
+}
+
+.blackjack-row-3 table {
+  border: solid 1px black;
+  height: 80%;
+  width: 15%;
+}
+
+.blackjack-row-3 td {
+  text-align: center;
+  border: solid 1px black;
+}
+
+.blackjack-row-3 th {
+  text-align: center;
+  border: solid 1px black;
+}
